@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Lateef");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lateef, Arial;
+  font-size: 18px;
+  line-height: 1.25;
+  background: #f9f0de;
+  color: #1f2839;
+  margin: 0 0 0 25%;
+}
+
+section.chicken {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background-image: url('https://c1.wallpaperflare.com/preview/47/636/55/cock-year-of-the-rooster-black-background-collage.jpg');
+  background-size: cover;
+  background-position: 80% 50%;
+}
+
+main {
+  padding: 80px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-size: 144px;
+  line-height: 1;
+  border-bottom: 1px solid #c2beb5;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+main footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin: 60px 0 60px 0;
+  grid-gap: 64px 32px;
+}
+
+main .grid .item img {
+  max-width: 100%;
+}
+
+main .grid .item .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .grid .item .title p {
+  font-size: 24px;
+}
